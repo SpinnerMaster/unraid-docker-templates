@@ -36,6 +36,7 @@ VERSION&#xD;
   <Config Name="SECURE" Target="SECURE" Default="false|true" Mode="" Description="Whether or not to use https or not." Type="Variable" Display="advanced" Required="false" Mask="false">false</Config>
   <Config Name="SECRET" Target="SECRET" Default="" Mode="" Description="Key string used for securing HTTPs connection. Generate your own string." Type="Variable" Display="advanced" Required="true" Mask="true"/>
   <Config Name="DATABASE_URL" Target="DATABASE_URL" Default="" Mode="" Description="Database URL." Type="Variable" Display="advanced" Required="true" Mask="false">postgresql://USER:PASS@HOST_IP:PORT/DB_NAME</Config>
+  <Config Name="DATASOURCE_TYPE" Target="DATASOURCE_TYPE" Default="" Mode="" Description="Datasource Type." Type="Variable" Display="advanced" Required="true" Mask="false">local</Config>
   <Config Name="UPLOADER_ROUTE" Target="UPLOADER_ROUTE" Default="" Mode="" Description="Which route uploads should be served on." Type="Variable" Display="advanced" Required="false" Mask="false">/u</Config>
   <Config Name="UPLOADER_EMBED_ROUTE" Target="UPLOADER_EMBED_ROUTE" Default="" Mode="" Description="Which route embed routes should be accessed via." Type="Variable" Display="advanced" Required="false" Mask="false">/a</Config>
   <Config Name="UPLOADER_LENGTH" Target="UPLOADER_LENGTH" Default="" Mode="" Description="Length of randomly generated characters for uploads." Type="Variable" Display="advanced" Required="false" Mask="false">6</Config>
